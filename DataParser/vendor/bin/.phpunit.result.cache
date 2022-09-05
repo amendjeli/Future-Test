@@ -1,0 +1,1 @@
+{"version":1,"defects":{"Warning":6,"CsvWriterServiceTest::FileWritten":4,"DirectoryServiceTest::FolderCanBeParsed":3},"times":{"Warning":0.004,"CsvWriterServiceTest::FileWritten":0.016,"DirectoryServiceTest::FolderCanBeParsed":0.01}}
