@@ -3,7 +3,7 @@
 ## FizzBuzz++ script
 <br />
 
-Go to the Fizzbuzz++ script Folder and in your terminal type : 
+Go to the Fizzbuzz Folder and in your terminal type : 
 <br />
 
 ```
@@ -14,7 +14,7 @@ node script.js
 ## Javascript test
 <br />
 
-Go to the Javascript test Folder and open the Index.html file
+Go to the Javascript Folder and open the Index.html file
 <br />
 
 <br />
