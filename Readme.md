@@ -34,7 +34,7 @@ Then to start the app you have to type :
 <br />
 
 ```
-php .\src\app.php
+php src/app.php parser
 ```
 
 When the question "Which folder to parse ?" is asked, put the name of a folder on the files folder to continue.
@@ -47,11 +47,10 @@ Example :
 <br />
 
 ```
-php .\src\app.php
+php src/app.php parser
 
  Which folder to parse ?:
  > 20131004
-
 ```
 <br />
 To launch the test, stay in the DataParser folder and type : 
@@ -59,7 +58,7 @@ To launch the test, stay in the DataParser folder and type :
 <br />
 
 ```
-.\vendor\bin\phpunit .\tests\CsvWriterServiceTest.php
+php vendor/bin/phpunit tests/CsvWriterServiceTest.php 
 
 ```
 
@@ -68,6 +67,6 @@ or
 <br />
 
 ```
-.\vendor\bin\phpunit .\tests\DirectoryServiceTest.php
+php vendor/bin/phpunit tests/DirectoryServiceTest.php 
 
 ```

@@ -9,9 +9,9 @@ final class CsvWriterServiceTest extends TestCase
     /** @test */
     public function FileWritten(): void
     {
-        $appCodes = parse_ini_file(getcwd().'\tests\files-test\appCodes.ini');
+        $appCodes = parse_ini_file(getcwd().'/tests/files-test/appCodes.ini');
         $csvWriter = new CsvWriterService($appCodes);
-        $csvWriter->createFile(getcwd().'\tests\files-test\20131004\device-tokens-for-sfx-collection-1.log');
-        $this->assertTrue(file_exists(getcwd().'\tests\files-test\20131004\device-tokens-for-sfx-collection-1.csv'));
+        $csvWriter->createFile(getcwd().'/tests/files-test/20131004/device-tokens-for-sfx-collection-1.log');
+        $this->assertTrue(file_exists(getcwd().'/tests/files-test/20131004/device-tokens-for-sfx-collection-1.csv'));
     }
 }

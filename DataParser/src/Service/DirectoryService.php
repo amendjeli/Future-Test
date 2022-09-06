@@ -13,7 +13,7 @@ class DirectoryService {
 
     function getDirContents($dir) {
         $files = scandir($dir);
-        $appCodes = parse_ini_file(getcwd().'\files\appCodes.ini');
+        $appCodes = parse_ini_file(getcwd().'/files/appCodes.ini');
         $csvWriter = new CsvWriterService($appCodes);
 
         foreach ($files as $key => $value) {
@@ -35,7 +35,7 @@ class DirectoryService {
 
     function getDirFiles($dir) {
         $files = scandir($dir);
-        $appCodes = parse_ini_file(getcwd().'\tests\files-test\appCodes.ini');
+        $appCodes = parse_ini_file(getcwd().'/tests/files-test/appCodes.ini');
         $csvWriter = new CsvWriterService($appCodes);
 
         foreach ($files as $key => $value) {
